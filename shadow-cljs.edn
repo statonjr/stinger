@@ -1,7 +1,9 @@
 ;; shadow-cljs configuration
 {:source-paths ["src"]
 
- :dependencies [[reagent "0.8.1"]]
+ :dependencies [[reagent "0.8.1"]
+                [binaryage/devtools "0.9.11"]
+                [reagent-utils "0.3.3"]]
 
  :builds {:main {:target :node-script
                  :output-to "resources/main.js"
