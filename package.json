@@ -1,7 +1,8 @@
 {
-  "name": "shadow-electorn-starter",
+  "name": "stinger",
   "version": "1.0.0",
-  "description": "shadow-clijs electron starter",
+  "description": "Playing with Electron, CLJS, reagent, and more",
+  "repository": "https://github.com/statonjr/stinger",
   "main": "resources/main.js",
   "scripts": {
     "dev": "./node_modules/.bin/shadow-cljs watch main renderer",
@@ -13,15 +14,15 @@
     "reagent",
     "electron"
   ],
-  "author": "Ahonn Jiang <ahonn95@outlook.com>",
+  "author": "Larry Staton Jr. <larry@larrystaton.com>",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^3.0.16",
-    "shadow-cljs": "^2.8.61"
+    "electron": "^7.1.0",
+    "shadow-cljs": "^2.8.0"
   },
   "dependencies": {
     "create-react-class": "^15.6.3",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
