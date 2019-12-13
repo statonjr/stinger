@@ -12,9 +12,7 @@
           :renderer {:target :browser
                      :output-dir "resources/public/js"
                      :asset-path "js"
-
+                     :js-options {:js-provider :require}
                      :modules {:renderer {:entries [app.renderer.core]}}
-
                      :devtools {:before-load app.renderer.core/stop
                                 :after-load app.renderer.core/start}}}}
-
